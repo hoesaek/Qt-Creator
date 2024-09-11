@@ -28,7 +28,7 @@ private:
     Ui::decalage *ui;
     const char* villes[25];
     int _hdecal; //heure decaler
-    static const int deca = 12;  // Constante pour le décalage
+    static const int offset = 12;  // Constante pour le décalage
 };
 
 #endif // DECALAGE_H
