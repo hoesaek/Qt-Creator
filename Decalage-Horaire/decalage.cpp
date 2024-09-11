@@ -51,7 +51,7 @@ void decalage::on_comboBox_currentIndexChanged(int index)
 int decalage::dacalageConvertion(int value)
 {
     if (value < 0 || value > 24) return -999;
-    return  value - deca;
+    return  value - offset;
 }
 
 void decalage::on_pushButton_clicked()
