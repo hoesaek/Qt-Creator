@@ -56,14 +56,9 @@ int decalage::dacalageConvertion(int value)
 
 void decalage::on_pushButton_clicked()
 {
-    //ou alors j'emet un signale avec les information de l heure decalé pour le constructeur de heuredecaler
     Heuredecale *fen = new Heuredecale;
-    // Connecter le signal sigChangeValHeure au slot dans Heuredecale
     connect(this, &decalage::sigChangeValHeure, fen, &Heuredecale::onChangeValHeure);
-
-    // Émettre le signal avec les informations actuelles
     emit sigChangeValHeure(ui->lblVille->text(), this->getDecalage());
-
     fen->show();
     this->close();
 }
