@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>decalage</class>
+ <widget class="QWidget" name="decalage">
+  <property name="windowModality">
+   <enum>Qt::WindowModality::WindowModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>148</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>60</y>
+     <width>63</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ville</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>63</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Decalage</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lblVille">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>60</y>
+     <width>341</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>110</y>
+     <width>83</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Suivant</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>10</y>
+     <width>181</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="currentText">
+    <string>UTC-12</string>
+   </property>
+   <property name="maxVisibleItems">
+    <number>25</number>
+   </property>
+   <item>
+    <property name="text">
+     <string>UTC-12</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DialogInformation"/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>UTC-11</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DialogInformation"/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>UTC-10</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DialogInformation"/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>UTC-09</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DialogInformation"/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>UTC-08</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DialogInformation"/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>UTC-07</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DialogInformation"/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>UTC-06</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DialogInformation"/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>UTC-05</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DialogInformation"/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>UTC-04</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DialogInformation"/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>UTC-03</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DialogInformation"/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>UTC-02</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DialogInformation"/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>UTC-01</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DialogInformation"/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>UTC±00</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DialogInformation"/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>UTC+01</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DialogInformation"/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>UTC+02</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DialogInformation"/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>UTC+03</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DialogInformation"/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>UTC+04</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DialogInformation"/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>UTC+05</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DialogInformation"/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>UTC+06</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DialogInformation"/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>UTC+07</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DialogInformation"/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>UTC+08</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DialogInformation"/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>UTC+09</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DialogInformation"/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>UTC+10</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DialogInformation"/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>UTC+11</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DialogInformation"/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>UTC+12</string>
+    </property>
+    <property name="icon">
+     <iconset theme="QIcon::ThemeIcon::DialogInformation"/>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
